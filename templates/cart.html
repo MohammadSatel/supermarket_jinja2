@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Cart</title>
+
+</head>
+<body style="background: #fff4a3; color: #4c4a37; font-family: 'Source Sans Pro', sans-serif;">
+    <h1 style="color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0;text-align:">Cart</h1>
+    <ul>
+        {% for item in cart %}
+            <li>{{ item.prod_name }} - {{ item.prod_price }}</li>
+        {% endfor %}
+    </ul>
+    <br>
+    <p>Number of items: {{ total_items }}</p>
+    <p>Total cost: ${{ total_price }}</p>
+    <a href="/">Back to Homepage</a>
+</body>
+</html>
