@@ -1,0 +1,24 @@
+TO DO LIST:
+
+virtual env - V
+install packages (flask) - V
+README.md - V
+requerments.txt - V 
+homepage - V
+cart page - V
+product list - V
+cart list - V
+calc total cart items - V
+calc total cart price - V
+link pages together - V
+add inventory - V
+bootstrap - V
+loop to display products in index.html - V
+cart list append - V
+loop to display cart items in cart.html - V
+load cart PICKLE - V
+save cart PICKLE - V
+add images to products - V
+add info page.html - V
+
+
