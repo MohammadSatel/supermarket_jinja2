@@ -1,6 +1,8 @@
 "# supermarket_jinja2" 
 Used Jinja, Flask, Python, HTML, CSS, Javascript
 
+TO START - RUN APP.PY -> http://127.0.0.1:5000/
+
 supermarket:
 * using Bootsrtrap.
 * products need name, price and inventory.

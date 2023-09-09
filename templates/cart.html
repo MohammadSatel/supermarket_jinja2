@@ -15,16 +15,16 @@
         <br>
         <a href="/about" class="btn btn-primary">About Us</a>
         <br>
-        <ul>
+        <form method="POST" action="/buy">
+            <!-- Loop through the items in the cart and include input fields -->
             {% for item in cart %}
+                <input type="hidden" name="product_name[]" value="{{ item.prod_name }}">
                 <li>{{ item.prod_name }} - Price: ${{ item.prod_price }}</li>
             {% endfor %}
-        </ul>
-        <br>
-        <p>Total number of items: {{ total_items }}</p>
-        <p>Total cost: ${{ total_cost }}</p>
-        <!-- Use a POST request for the Buy button -->
-        <form method="POST" action="/buy">
+            <br>
+            <p>Total number of items: {{ total_items }}</p>
+            <p>Total cost: ${{ total_cost }}</p>
+            <!-- Use a POST request for the Buy button -->
             <button type="submit" class="btn btn-primary">Buy</button>
         </form>
     </div>

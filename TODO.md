@@ -1,4 +1,5 @@
 TO DO LIST:
+TO START - RUN APP.PY -> http://127.0.0.1:5000/
 
 virtual env - V
 install packages (flask) - V
