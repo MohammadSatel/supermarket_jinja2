@@ -1,3 +1,4 @@
+import logging  # Import the logging module
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 import json
 
@@ -22,6 +23,13 @@ links = [
     {"prod_name": "Cart", "url": "/cart"},
 ]
 
+# Configure the logging settings
+logging.basicConfig(
+    filename='app.log',  # Specify the log file name
+    level=logging.INFO,  # Set the log level (you can adjust this as needed)
+    format='%(asctime)s - %(levelname)s - %(message)s'  # Define the log message format
+)
+
 @app.before_request
 def save_cart():
     # Serialize and save the cart list to a JSON file
@@ -39,10 +47,12 @@ def load_cart(exception=None):
 
 @app.route('/')
 def homepage():
+    logging.info('Accessed homepage')  # Log when the homepage is accessed
     return render_template('index.html', links=links, product_list=product_list)
 
 @app.route('/about')
 def about():
+    logging.info('Accessed about page')  # Log when the about page is accessed
     return render_template('about.html')
 
 @app.route('/cart', methods=['GET', 'POST'])
@@ -61,6 +71,7 @@ def view_cart():
                     'prod_price': selected_product['prod_price'],
                     'cart_quantity': 1
                 })
+            logging.info(f'Added {selected_product_name} to cart')  # Log when a product is added to the cart
 
     # Calculate the total item count
     total_items = sum(item.get('cart_quantity', 0) for item in cart)
@@ -68,6 +79,7 @@ def view_cart():
     # Calculate the accurate total cost of items in the cart
     total_cost = sum(item['prod_price'] * item['cart_quantity'] for item in cart)
 
+    logging.info('Viewed cart page')  # Log when the cart page is viewed
     return render_template('cart.html', links=links, cart=cart, total_items=total_items, total_cost=total_cost)
 
 @app.route('/buy', methods=['POST'])
@@ -86,6 +98,7 @@ def buy():
     with open('product_list.json', 'w') as product_file:
         json.dump(product_list, product_file)
 
+    logging.info('Completed purchase')  # Log when a purchase is completed
     return redirect(url_for('view_cart'))
 
 if __name__ == '__main__':

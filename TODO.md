@@ -21,8 +21,8 @@ load cart JSON - V
 save cart JSON - V
 add images to products - 
 add info page.html - V
-add logging - 
-JS alert - 
+add logging - V
+JS alert - V
 
 
 

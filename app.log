@@ -58,3 +58,49 @@
 2023-09-09 00:33:05,435 [INFO]  * Detected change in 'C:\\Users\\admin\\Desktop\\supermarket\\app.py', reloading
 2023-09-09 00:33:06,185 [INFO]  * Detected change in 'C:\\Users\\admin\\Desktop\\supermarket\\app.py', reloading
 2023-09-09 00:33:06,288 [INFO]  * Restarting with stat
+2023-09-09 09:39:34,791 - WARNING -  * Debugger is active!
+2023-09-09 09:39:34,799 - INFO -  * Debugger PIN: 119-700-970
+2023-09-09 09:39:34,887 - WARNING -  * Debugger is active!
+2023-09-09 09:39:34,891 - INFO -  * Debugger PIN: 142-665-123
+2023-09-09 09:39:35,821 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\supermarket\\app.py', reloading
+2023-09-09 09:39:35,926 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\supermarket\\app.py', reloading
+2023-09-09 09:42:16,414 - WARNING -  * Debugger is active!
+2023-09-09 09:42:16,418 - INFO -  * Debugger PIN: 119-700-970
+2023-09-09 09:42:16,585 - WARNING -  * Debugger is active!
+2023-09-09 09:42:16,589 - INFO -  * Debugger PIN: 142-665-123
+2023-09-09 09:42:21,115 - INFO - Accessed homepage
+2023-09-09 09:42:21,123 - INFO - 127.0.0.1 - - [09/Sep/2023 09:42:21] "GET / HTTP/1.1" 200 -
+2023-09-09 09:42:21,143 - INFO - 127.0.0.1 - - [09/Sep/2023 09:42:21] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2023-09-09 09:42:22,262 - INFO - Accessed homepage
+2023-09-09 09:42:22,262 - INFO - 127.0.0.1 - - [09/Sep/2023 09:42:22] "GET / HTTP/1.1" 200 -
+2023-09-09 09:42:22,274 - INFO - 127.0.0.1 - - [09/Sep/2023 09:42:22] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2023-09-09 09:42:30,839 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-09 09:42:30,839 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-09 09:42:30,839 - INFO -  * Restarting with stat
+2023-09-09 09:42:31,292 - WARNING -  * Debugger is active!
+2023-09-09 09:42:31,296 - INFO -  * Debugger PIN: 142-665-123
+2023-09-09 09:42:59,394 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-09 09:42:59,394 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-09 09:42:59,397 - INFO -  * Restarting with stat
+2023-09-09 09:42:59,792 - WARNING -  * Debugger is active!
+2023-09-09 09:42:59,792 - INFO -  * Debugger PIN: 142-665-123
+2023-09-09 09:46:03,851 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-09 09:46:03,851 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-09 09:46:03,856 - INFO -  * Restarting with stat
+2023-09-09 09:46:04,258 - WARNING -  * Debugger is active!
+2023-09-09 09:46:04,262 - INFO -  * Debugger PIN: 142-665-123
+2023-09-09 09:49:04,342 - INFO - Accessed homepage
+2023-09-09 09:49:04,347 - INFO - 127.0.0.1 - - [09/Sep/2023 09:49:04] "GET / HTTP/1.1" 200 -
+2023-09-09 09:49:04,367 - INFO - 127.0.0.1 - - [09/Sep/2023 09:49:04] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2023-09-09 09:49:09,308 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-09 09:49:09,309 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-09 09:49:09,311 - INFO -  * Restarting with stat
+2023-09-09 09:49:09,700 - WARNING -  * Debugger is active!
+2023-09-09 09:49:09,704 - INFO -  * Debugger PIN: 142-665-123
+2023-09-09 09:49:12,435 - INFO - Accessed homepage
+2023-09-09 09:49:12,436 - INFO - 127.0.0.1 - - [09/Sep/2023 09:49:12] "GET / HTTP/1.1" 200 -
+2023-09-09 09:49:12,453 - INFO - 127.0.0.1 - - [09/Sep/2023 09:49:12] "[33mGET /styles.css HTTP/1.1[0m" 404 -
