@@ -1,0 +1,60 @@
+2023-09-09 00:26:01,503 [WARNING]  * Debugger is active!
+2023-09-09 00:26:01,508 [WARNING]  * Debugger is active!
+2023-09-09 00:26:01,508 [INFO]  * Debugger PIN: 142-665-123
+2023-09-09 00:26:01,511 [INFO]  * Debugger PIN: 142-665-123
+2023-09-09 00:26:01,990 [WARNING]  * Debugger is active!
+2023-09-09 00:26:01,990 [INFO]  * Debugger PIN: 142-665-123
+2023-09-09 00:26:40,276 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-09 00:26:40,276 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-09 00:26:40,276 [INFO]  * Restarting with stat
+2023-09-09 00:26:40,649 [WARNING]  * Debugger is active!
+2023-09-09 00:26:40,653 [INFO]  * Debugger PIN: 142-665-123
+2023-09-09 00:26:57,073 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-09 00:26:57,073 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-09 00:26:57,073 [INFO]  * Restarting with stat
+2023-09-09 00:26:57,561 [WARNING]  * Debugger is active!
+2023-09-09 00:26:57,565 [INFO]  * Debugger PIN: 142-665-123
+2023-09-09 00:27:36,203 [INFO]  * Detected change in 'C:\\Users\\admin\\Desktop\\supermarket\\app.py', reloading
+2023-09-09 00:27:36,271 [INFO]  * Restarting with stat
+2023-09-09 00:29:07,860 [INFO]  * Restarting with stat
+2023-09-09 00:29:18,474 [INFO]  * Restarting with stat
+2023-09-09 00:29:18,773 [WARNING]  * Debugger is active!
+2023-09-09 00:29:18,777 [INFO]  * Debugger PIN: 142-665-123
+2023-09-09 00:29:18,925 [WARNING]  * Debugger is active!
+2023-09-09 00:29:18,929 [INFO]  * Debugger PIN: 142-665-123
+2023-09-09 00:30:04,500 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-09 00:30:04,500 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-09 00:30:04,500 [INFO]  * Restarting with stat
+2023-09-09 00:30:04,992 [WARNING]  * Debugger is active!
+2023-09-09 00:30:04,992 [INFO]  * Debugger PIN: 142-665-123
+2023-09-09 00:30:23,004 [INFO]  * Detected change in 'C:\\Users\\admin\\Desktop\\supermarket\\app.py', reloading
+2023-09-09 00:30:23,139 [INFO]  * Detected change in 'C:\\Users\\admin\\Desktop\\supermarket\\app.py', reloading
+2023-09-09 00:30:23,201 [INFO]  * Restarting with stat
+2023-09-09 00:30:23,301 [INFO]  * Detected change in 'C:\\Users\\admin\\Desktop\\supermarket\\app.py', reloading
+2023-09-09 00:30:23,359 [INFO]  * Restarting with stat
+2023-09-09 00:30:29,484 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-09 00:30:29,484 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-09 00:31:16,663 [WARNING]  * Debugger is active!
+2023-09-09 00:31:16,667 [INFO]  * Debugger PIN: 142-665-123
+2023-09-09 00:31:18,688 [INFO] 127.0.0.1 - - [09/Sep/2023 00:31:18] "GET / HTTP/1.1" 200 -
+2023-09-09 00:31:18,701 [INFO] 127.0.0.1 - - [09/Sep/2023 00:31:18] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2023-09-09 00:31:23,637 [INFO] 127.0.0.1 - - [09/Sep/2023 00:31:23] "POST /cart HTTP/1.1" 200 -
+2023-09-09 00:31:23,655 [INFO] 127.0.0.1 - - [09/Sep/2023 00:31:23] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2023-09-09 00:31:24,815 [INFO] 127.0.0.1 - - [09/Sep/2023 00:31:24] "[32mPOST /buy HTTP/1.1[0m" 302 -
+2023-09-09 00:31:24,823 [INFO] 127.0.0.1 - - [09/Sep/2023 00:31:24] "GET /cart HTTP/1.1" 200 -
+2023-09-09 00:31:24,836 [INFO] 127.0.0.1 - - [09/Sep/2023 00:31:24] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2023-09-09 00:31:26,123 [INFO] 127.0.0.1 - - [09/Sep/2023 00:31:26] "GET / HTTP/1.1" 200 -
+2023-09-09 00:31:26,140 [INFO] 127.0.0.1 - - [09/Sep/2023 00:31:26] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2023-09-09 00:32:19,041 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-09 00:32:19,042 [INFO] [33mPress CTRL+C to quit[0m
+2023-09-09 00:32:19,043 [INFO]  * Restarting with stat
+2023-09-09 00:32:19,405 [WARNING]  * Debugger is active!
+2023-09-09 00:32:19,409 [INFO]  * Debugger PIN: 142-665-123
+2023-09-09 00:33:05,435 [INFO]  * Detected change in 'C:\\Users\\admin\\Desktop\\supermarket\\app.py', reloading
+2023-09-09 00:33:06,185 [INFO]  * Detected change in 'C:\\Users\\admin\\Desktop\\supermarket\\app.py', reloading
+2023-09-09 00:33:06,288 [INFO]  * Restarting with stat

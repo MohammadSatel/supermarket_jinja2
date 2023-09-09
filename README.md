@@ -8,8 +8,8 @@ supermarket:
 * save cart on exit.
 * load cart on start.
 
-* added 2 lists (products, cart).
-* added option to add a product to the cart list.
-* added supermarket info page.
-* added images to products
-* added stock (inventory) to products.
+* 2 lists (products, cart).
+* option to add a product to the cart list.
+* supermarket info page.
+* images to products
+* stock (inventory) to products.

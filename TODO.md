@@ -16,9 +16,12 @@ bootstrap - V
 loop to display products in index.html - V
 cart list append - V
 loop to display cart items in cart.html - V
-load cart PICKLE - V
-save cart PICKLE - V
-add images to products - V
+load cart JSON - V
+save cart JSON - V
+add images to products - 
 add info page.html - V
+add logging - 
+JS alert - 
+
 
 
