@@ -3,6 +3,7 @@ TO DO LIST:
 virtual env - V
 install packages (flask) - V
 README.md - V
+TODO - V
 requerments.txt - V 
 homepage - V
 cart page - V

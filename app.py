@@ -22,6 +22,21 @@ links = [
     {"prod_name": "Cart", "url": "/cart"},
 ]
 
+@app.before_request
+def save_cart():
+    # Serialize and save the cart list to a JSON file
+    with open('cart.json', 'w') as cart_file:
+        json.dump(cart, cart_file)
+
+@app.teardown_request
+def load_cart(exception=None):
+    global cart
+    try:
+        with open('cart.json', 'r') as cart_file:
+            cart = json.load(cart_file)
+    except FileNotFoundError:
+        cart = []
+
 @app.route('/')
 def homepage():
     return render_template('index.html', links=links, product_list=product_list)
